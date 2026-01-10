@@ -3,22 +3,22 @@ name: danchaofancfcf
 on:
   workflow_dispatch:
   schedule:
-    - cron: '9 2/6 * * *'
-
+    - cron: '11 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: danchaofancfcf
         env:
-          c640: ${{ secrets.c640 }}
+          v50: ${{ secrets.v50 }}
         run: |
-          echo $c640 | jq -r .wa846 | /bin/bash
-          echo $z327 | jq -r .qg24 | /bin/bash
-          echo $n076 | jq -r .r8173 | /bin/bash
-          echo $jxktv028 | jq -r .zuj2 | /bin/bash
-          echo $swis7 | jq -r .ue70 | /bin/bash
-          echo $xb67743 | jq -r .qyb3 | /bin/bash
-          echo $g1 | jq -r .iewlq49594 | /bin/bash
+          echo $v50 | jq -r .fspf81 | /bin/bash
+          echo $dfycl31 | jq -r .ags30 | /bin/bash
+          echo $tr72 | jq -r .kk82 | /bin/bash
+          echo $sgsg0 | jq -r .tuk94 | /bin/bash
+          echo $uv5 | jq -r .cjffe72124 | /bin/bash
+          echo $syj5 | jq -r .or754 | /bin/bash
+          echo $ig743 | jq -r .nz2411 | /bin/bash
 
